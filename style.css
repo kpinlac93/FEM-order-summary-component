@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    line-height: 1em;
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
+    list-style: none;
+    font-size: 16px;
+}
+body {
+    background-color: #D6E1FF;
+}
+.container {
+    width: 450px;
+    height: 697px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 30px;
+    background: white;
+}
+.illustration {
+    background-image: url("images/illustration-hero.svg");
+    height: 220px;
+    border-radius: 30px 30px 0px 0;
+}
+h1 {
+    font-size: 1.7em;
+    margin-top: 50px;
+    font-weight: bold;
+}
+.msg p {
+    line-height: 1.8em;
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+}
+.sum {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d6e1ff8f;
+    border-radius: 10px;
+    margin-left: 35px;
+    margin-right: 35px;
+    padding: 20px;
+    margin-top: 25px;
+}
+.suminfo {
+    display: flex;
+    align-items: center;
+}
+.suminfo img {
+    padding-right: 25px;
+}
+.sum h2 {
+    line-height: 1.7em;
+    font-weight: bold;
+}
+.sum p {
+    line-height: 1.7em;
+}
+.sum h3 {
+    font-size: 0.9em;
+    text-decoration: underline;
+}
+.sum h3:hover {
+    text-decoration: none;
+    color: #382AE1;
+}
+.container ul {
+    margin-top: 30px;
+}
+.button {
+    background-color: #382AE1;
+    color: white;
+    border-radius: 20px;
+    margin-left: 35px;
+    margin-right: 35px;
+    line-height: 3.5em;
+    font-weight: bold;
+}
+.full {
+    box-shadow: 0px 20px 20px #392ae141;
+}
+.full:hover {
+    background-color: #6e62ee;
+}
+.empty {
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(0, 0, 0, 0.692);
+}
+.empty:hover {
+    color: rgb(0, 0, 0);
+}
